@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Mirza:wght@400;500;600;700&family=Roboto:wght@100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#logo {
+  font-size: 21px;
+  font-weight: bolder;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+  color: rgb(48, 32, 59);
+}
+
+
+  
+
+
+
+#textOrganic {
+    font-family: 'Mirza', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: white;
+}
+#textdo {
+    font-family: 'Mirza', sans-serif;
+    font-size: 18px;
+    color: white;
+    
+}
+#hight-Quality {
+  font-size: 43px;
+  font-weight: bolder;
+  font-family: 'Mirza', sans-serif;
+  text-transform: capitalize;
+  color: white;
+}
+
+
+  
+
+
+@media screen and (max-width:767px) {
+    .heroText {
+        font-size: 2.5em;
+
+    }
+    .textdo {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.offersRight img {
+  width: 60%;
+  height: 65vh;
+  object-fit: cover;
+  margin-top: 20px;
+  padding: 18px;
+  border-radius:  160px 160px 0px 0px;
+  -webkit-border-radius:  160px 160px 0px 0px;
+  -moz-border-radius:  160px 160px 0px 0px;
+  -ms-border-radius:  160px 160px 0px 0px;
+  -o-border-radius:  160px 160px 0px 0px;
+}
+.offersLeft {
+  padding-left: 125px;
+  
+}
+.offersLeft p {
+  font-size: 20px;
+  font-family: 'Mirza', sans-serif;
+  text-transform: capitalize;
+}
+.offersLeft h2 {
+  font-size: 72px;
+  font-weight: bolder;
+  font-family: 'Mirza', sans-serif;
+  text-transform: capitalize;
+}
+
+
+
